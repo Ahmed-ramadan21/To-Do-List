@@ -1,0 +1,632 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Vazirmatn', sans-serif;
+}
+body{
+  background-color: rgb(20, 16, 46);
+}
+#todo{
+  display: flex;
+  justify-content: center;
+
+  direction: rtl;
+
+  width: 100%;
+
+}
+.form{
+  width: 60%;
+  margin-top: 120px;
+  margin-bottom: 50px;
+  
+}
+.form .heda{
+  background-color:rgb(152, 53, 143);
+  text-align: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 55px;
+  color: aliceblue;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+.form .heda .btn{
+  position: absolute;
+  right: 2%;
+  top: 25%;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color:rgb(40, 44, 52) ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  outline: none;
+  
+}
+
+
+.form .body{
+  width: 100%;
+  background-color: rgb(132, 155, 177);
+  padding: 5px 0;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.done2{
+  text-decoration: line-through;
+  color: rgba(0, 0, 0, 0.467);
+}
+
+
+
+.form .body .task{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+  background-color: rgb(213, 215, 220);
+  padding: 3px 12px;
+  margin: 7px;
+  border-radius: 8px;
+  
+  transition: box—shadow 0.2s;
+}
+.done{
+  background-color: rgb(137, 222, 152) !important;
+}
+.form .body .task:hover{
+  box-Shadow: 0px 3px 15px  rgba(38, 37, 37, 0.748);
+}
+.form .body .task .info{
+  width: 70%;
+}
+.form .body .task .info .date,.time{
+  display: flex;
+padding-top: 5px;
+}
+
+.form .body .task .info h2{
+  display: flex;
+  overflow: auto;
+}
+
+.form .body .task .info .date i{
+  padding-left: 8px;
+}
+.form .body .task .info .time i{
+  padding-left: 8px;
+}
+.form .body .task .buttons{
+  width: 30%;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+.btn-cer{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 18px;
+  box-Shadow: 0px 3px 5px  rgba(85, 83, 83, 0.818);
+}
+.btn-cer:hover{
+  box-Shadow: 0px 3px 8px  rgb(22, 22, 22);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+  text-align: center;
+  width: 100%;
+  margin: auto;
+}
+footer h3{
+  color: aliceblue;
+
+  margin-top: 0;
+}
+footer .sochial a{
+  margin:0 12px;
+  font-size: 20px;
+}
+footer .sochial{
+  color: white;
+  padding: 10px;
+  border: 2px solid white;
+  width: 50%;
+  margin: 0 auto 30px;
+  border-radius: 10px;
+  background-color: rgb(36, 37, 68);
+}
+ footer .end-foot .fo span{
+  color: rgb(5, 142, 220);
+  font-weight: bold;
+}
+
+ footer .end-foot{
+  width: 58%;
+  margin: 100px auto 20px;
+  background-color: rgb(36, 37, 68);
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+  border: 2px solid white;
+}
+footer .sochial a .fa-brands{
+  padding: 7px;
+  border-radius: 50%;
+  color: aliceblue;
+}
+footer .sochial a .fa-facebook-f{
+  padding: 8px 12px;
+  background-color: rgb(59, 89, 152);
+}
+footer .sochial a .fa-google{
+  background-color: rgb(221, 75, 57);
+}
+
+footer .sochial a .fa-instagram{
+  background-color: rgb(172, 43, 172);
+}
+footer .sochial a .fa-whatsapp{
+ background-color:green ;
+}
+footer .sochial a .fa-linkedin-in{
+  background-color: rgb(0, 130, 202);
+}
+footer .sochial a .fa-github{
+  background-color:black ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+
+
+
+  .form{
+    width: 80%;
+    margin-top: 120px;
+    margin-bottom: 50px;
+    
+  }
+
+
+
+
+
+  footer .end-foot{
+    width: 80%;
+    
+  }
+
+  footer .sochial a{
+    font-size: 18px;
+  }
+  footer .sochial{
+    width: 45%;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 992px){
+
+
+
+  .form{
+    width: 85%;
+    margin-top: 110px;
+    margin-bottom: 50px;
+    
+  }
+
+
+
+
+
+  footer .sochial a{
+    margin:0 10px;
+    font-size: 18px;
+  }
+  footer .sochial{
+    width: 55%;
+  }
+footer .end-foot{
+    font-size: 15px;
+    width: 85%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 576px) and (max-width: 768px){
+
+
+
+
+  .form{
+    width: 85%;
+    margin-top: 110px;
+    margin-bottom: 50px;
+    
+  }
+  .form .heda{
+    background-color:rgb(152, 53, 143);
+    text-align: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
+    color: aliceblue;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+  }
+  .form .heda .btn{
+    position: absolute;
+    right: 2%;
+    top: 25%;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color:rgb(40, 44, 52) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    outline: none;
+    
+  }
+  
+  
+  .form .body{
+    width: 100%;
+    background-color: rgb(132, 155, 177);
+    padding: 5px 0;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
+  
+  .done2{
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 0.467);
+  }
+  
+  
+  
+  .form .body .task{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    background-color: rgb(213, 215, 220);
+    padding: 3px 12px;
+    margin: 7px;
+    border-radius: 8px;
+    
+    transition: box—shadow 0.2s;
+  }
+  .done{
+    background-color: rgb(137, 222, 152) !important;
+  }
+  .form .body .task:hover{
+    box-Shadow: 0px 3px 15px  rgba(38, 37, 37, 0.748);
+  }
+  .form .body .task .info{
+    width: 70%;
+  }
+  .form .body .task .info .date,.time{
+    display: flex;
+  padding-top: 3px;
+  font-size: 10px;
+  }
+  
+  .form .body .task .info h2{
+    display: flex;
+    overflow: auto;
+    font-size: 13px;
+  }
+  
+  .form .body .task .info .date i{
+    padding-left: 6px;
+  }
+  .form .body .task .info .time i{
+    padding-left: 6px;
+  }
+  .form .body .task .buttons{
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+  
+  }
+  .btn-cer{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 13px;
+    box-Shadow: 0px 3px 5px  rgba(85, 83, 83, 0.818);
+  }
+  .btn-cer:hover{
+    box-Shadow: 0px 3px 8px  rgb(22, 22, 22);
+  }
+  
+
+
+
+
+
+  footer .sochial a{
+    margin:0 10px;
+    font-size: 18px;
+  }
+  footer .sochial{
+    width: 75%;
+  }
+ footer .end-foot{
+    width: 85%;
+    font-size: 11px;
+    font-weight: 600;
+  }
+  footer h3{
+    font-size: 24px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and  (max-width: 576px){
+
+
+  .form{
+    width: 88%;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    
+  }
+  .form .heda h1{
+    font-size: 25px;
+  }
+  .form .heda{
+    background-color:rgb(152, 53, 143);
+    text-align: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
+    color: aliceblue;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+  }
+  .form .heda .btn{
+    position: absolute;
+    right: 2%;
+    top: 25%;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color:rgb(40, 44, 52) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+    outline: none;
+    
+  }
+  
+  
+  .form .body{
+    width: 100%;
+    background-color: rgb(132, 155, 177);
+    padding: 3px 0;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
+  
+  .done2{
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 0.467);
+  }
+  
+  
+  
+  .form .body .task{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    background-color: rgb(213, 215, 220);
+    padding: 3px 10px;
+    margin: 6px;
+    border-radius: 8px;
+    
+    transition: box—shadow 0.2s;
+  }
+  .done{
+    background-color: rgb(137, 222, 152) !important;
+  }
+  .form .body .task:hover{
+    box-Shadow: 0px 3px 13px  rgba(38, 37, 37, 0.748);
+  }
+  .form .body .task .info{
+    width: 70%;
+  }
+  .form .body .task .info .date,.time{
+    display: flex;
+  padding-top: 3px;
+  font-size: 8px;
+  }
+  
+  .form .body .task .info h2{
+    display: flex;
+    overflow: auto;
+    font-size: 10px;
+  }
+  
+  .form .body .task .info .date i{
+    padding-left: 5px;
+  }
+  .form .body .task .info .time i{
+    padding-left: 5px;
+  }
+  .form .body .task .buttons{
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+  
+  }
+  .btn-cer{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin: 5px;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 10px;
+    box-Shadow: 0px 3px 5px  rgba(85, 83, 83, 0.818);
+  }
+  .btn-cer:hover{
+    box-Shadow: 0px 3px 8px  rgb(22, 22, 22);
+  }
+  
+
+
+
+
+
+  footer .sochial a{
+    margin:0 10px;
+    font-size: 10px;
+  }
+  footer .sochial{
+    color: white;
+    padding: 10px;
+    border: 2px solid white;
+    width: 85%;
+    font-size: 10px;
+    margin: 0 auto 30px;
+    border-radius: 15px;
+    background-color: rgb(36, 37, 68);
+  }
+ footer .end-foot{
+    width: 85%;
+    font-size: 9px;
+    font-weight: 600;
+  }
+  footer .sochial a .fa-brands{
+    padding: 6px;
+    border-radius: 50%;
+    color: aliceblue;
+    
+  }
+  footer .sochial a .fa-facebook-f{
+    padding: 5px 8px;
+  }
+  footer h3{
+    font-size: 16px;
+  }
+}
