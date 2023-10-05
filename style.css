@@ -111,6 +111,7 @@ padding-top: 5px;
   width: 30%;
   display: flex;
   justify-content: space-evenly;
+  padding: 0 50px;
 
 }
 .btn-cer{
@@ -552,7 +553,7 @@ footer .end-foot{
     box-Shadow: 0px 3px 13px  rgba(38, 37, 37, 0.748);
   }
   .form .body .task .info{
-    width: 70%;
+    width: 60%;
   }
   .form .body .task .info .date,.time{
     display: flex;
@@ -573,14 +574,15 @@ footer .end-foot{
     padding-left: 5px;
   }
   .form .body .task .buttons{
-    width: 30%;
+    width: 40%;
     display: flex;
     justify-content: space-evenly;
-  
+    padding: 0 0px;
   }
   .btn-cer{
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 20px;
+    padding: 7px;
     border-radius: 50%;
     margin: 5px;
     border: none;
@@ -589,7 +591,7 @@ footer .end-foot{
     justify-content: center;
     align-items: center;
     color: white;
-    font-size: 10px;
+    font-size: 9px;
     box-Shadow: 0px 3px 5px  rgba(85, 83, 83, 0.818);
   }
   .btn-cer:hover{

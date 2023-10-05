@@ -1,32 +1,32 @@
 
 let tasks = [
 
-  {
-    "title" : "مراجعه",
-    "date" : "10/10/2020",
-    "time" : "10:20",
-    "isDone": false
+  // {
+  //   "title" : "مراجعه",
+  //   "date" : "10/10/2020",
+  //   "time" : "10:20",
+  //   "isDone": false
   
   
-  }
-  ,
-  {
-    "title" : "تمارين",
-    "date" : "10/10/2020",
-    "time" : "10:20",
-    "isDone": false
+  // }
+  // ,
+  // {
+  //   "title" : "تمارين",
+  //   "date" : "10/10/2020",
+  //   "time" : "10:20",
+  //   "isDone": false
   
   
-  }
-  ,
-  {
-    "title" : "درووس",
-    "date" : "10/10/2020",
-    "time" : "10:20",
-    "isDone": false
+  // }
+  // ,
+  // {
+  //   "title" : "درووس",
+  //   "date" : "10/10/2020",
+  //   "time" : "10:20",
+  //   "isDone": false
   
   
-  }
+  // }
   
   
   ]
@@ -81,7 +81,7 @@ let tasks = [
   }
   fillTasksOnThePage()
   document.getElementById("add-btn").addEventListener("click", function(){
-      let taskName = prompt("الرجاء ادخال عنوان المهمه")
+      let taskName = prompt("الرجاء ادخال عنوان المهمه" , "لعب التمارين")
       let now = new Date()
       let date = now.getDate() + "/" + (now.getMonth()+1) + "/" + now.getUTCFullYear()
       let hours =now.getHours()
